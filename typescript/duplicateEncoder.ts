@@ -3,7 +3,7 @@ export function duplicateEncode(word: string) {
     word.toLowerCase().split('').forEach((l: string) => {
         let count: number = 0
         for (let i = 0; i < word.length; i++) {
-            word[i].toLowerCase() === l ? count++ : ''
+            word[i] === l ? count++ : ''
         }
         count <= 1 ? result += '(' : result += ')'
     })
