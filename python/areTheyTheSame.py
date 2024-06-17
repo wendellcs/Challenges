@@ -18,9 +18,6 @@ def comp(a, b):
 
     return freq_a == freq_b
     
-
-
-
 print(comp([121, 144, 19, 161, 19, 144, 19, 11], [121, 14641, 20736, 361, 25921, 361, 20736, 361]  ))
 
 # Expected output: True
