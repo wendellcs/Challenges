@@ -1,4 +1,4 @@
-export function duplicateEncode(word: string) {
+export function duplicateEncode(word: string): string {
     let result: string = ''
     word.toLowerCase().split('').forEach((l: string) => {
         let count: number = 0
