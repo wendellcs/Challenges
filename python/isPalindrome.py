@@ -1,4 +1,4 @@
-# Verifys if a numeric array is a palindrome
+# Checks if a numeric array is a palindrome
 
 def is_palindrome(arr):
     for i in range(len(arr)):
