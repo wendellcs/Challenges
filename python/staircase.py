@@ -1,5 +1,5 @@
 def staircase(n):
-    stair = ''
+    stair = []
     iteration = 0
     for i in range(n):
         row = ''
@@ -10,8 +10,8 @@ def staircase(n):
             row = row.replace('#', ' ', 1)
         
         iteration += 1
-        stair += '\n'.join(row)
+        stair.append(row)
    
-    print(stair)
+    print('\n'.join(stair[::-1]))
 
 staircase(8)
